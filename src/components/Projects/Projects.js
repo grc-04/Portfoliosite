@@ -8,6 +8,8 @@ import portfolio from "../../Assets/Projects/portfolio.png";
 import bored from "../../Assets/Projects/bored.png";
 import bot from "../../Assets/Projects/quizbot.png";
 import farmoney from "../../Assets/Projects/Farmoney.png";
+import evac from "../../Assets/Projects/evac.png";
+import chatbot from "../../Assets/Projects/chatbot.png";
 
 function Projects() {
   return (
@@ -70,7 +72,7 @@ function Projects() {
               imgPath={portfolio}
               isBlog={false}
               title="Redesigned Portfolio Website"
-              description="Redesgined Portfolio using a template by Soumyajit Banerjee"
+              description="Redesigned Portfolio using a template"
               ghLink="https://github.com/grc-04/Portfolio"
             />
           </Col>
@@ -82,6 +84,24 @@ function Projects() {
               title="Farmoney"
               description="Wrote the algorithm for Farmoney: An agri-investment platform for retail investors to invest directly to farmers"
               ghLink="https://github.com/grc-04/far_money"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={evac}
+              isBlog={false}
+              title="evac"
+              description="Developed admin and user  pages using Flutter for EVAC: Your ally in emergencies, an app to provide accurate headcounts in the face of calamity. "
+              ghLink="https://github.com/grc-04/evac"
+            />
+            </Col>
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatbot}
+              isBlog={false}
+              title="NLP-Chatbot"
+              description="Built a Chatbot using Natural Language Processing and Neural Networks.Transformed textual data into numerical values using Bag of Words encoding."
+              ghLink="https://github.com/grc-04/nlp-chatbot"
             />
           </Col>
         </Row>
