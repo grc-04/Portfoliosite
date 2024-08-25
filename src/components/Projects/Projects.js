@@ -23,6 +23,27 @@ function Projects() {
           My latest projects!
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={hosmas}
+              isBlog={false}
+              title="Complete Hostel Management System"
+              description="A complete Hostel Management System for TIET with 
+              hostel and room allocation, laundry, cleaning, mess and leave management integrations working live."
+              ghLink="https://hosmas.ccstiet.com"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={evac}
+              isBlog={false}
+              title="evac"
+              description="Developed admin and user  pages using Flutter for EVAC: Your ally in emergencies, an app to provide accurate headcounts in the face of calamity. "
+              ghLink="https://github.com/grc-04/evac"
+            />
+            </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={housing}
@@ -42,18 +63,6 @@ function Projects() {
               title="Bored"
               description="Implemented a REST API to provide content and popularity-based recommendations for movies, songs, etc. through a python script."
               ghLink="https://github.com/grc-04/bored"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bot}
-              isBlog={false}
-              title="QuizBot using discord.py"
-              description="Created a discord bot that facilitates the conduction of online quizzes with Google Sheet integration for
-              scorekeeping, complete with timer and answer
-              collection."
-              ghLink="https://github.com/grc-04/Pouncebot"       
             />
           </Col>
 
@@ -86,15 +95,19 @@ function Projects() {
               ghLink="https://github.com/grc-04/far_money"
             />
           </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={evac}
+              imgPath={bot}
               isBlog={false}
-              title="evac"
-              description="Developed admin and user  pages using Flutter for EVAC: Your ally in emergencies, an app to provide accurate headcounts in the face of calamity. "
-              ghLink="https://github.com/grc-04/evac"
+              title="QuizBot using discord.py"
+              description="Created a discord bot that facilitates the conduction of online quizzes with Google Sheet integration for
+              scorekeeping, complete with timer and answer
+              collection."
+              ghLink="https://github.com/grc-04/Pouncebot"       
             />
-            </Col>
+          </Col>
+          
             <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatbot}

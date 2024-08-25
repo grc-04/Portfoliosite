@@ -7,6 +7,10 @@ import {
   DiGithubBadge,
   DiPython,
   DiGit,
+  DiJava,
+  DiGithub,
+  DiJira,
+  DiVisualstudio,
 } from "react-icons/di";
 
 function Techstack() {
@@ -19,6 +23,12 @@ function Techstack() {
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <DiGithub />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJira />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -26,6 +36,12 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiVisualstudio />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiHtml5 />

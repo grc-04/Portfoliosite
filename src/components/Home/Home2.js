@@ -19,18 +19,18 @@ function Home2() {
               ABOUT <span className="purple"> ME </span> 
             </h1>
             <p className="home-about-body">
-              I am an avid programmer skilled Data Structures and Algorithms and Competitive Programming
+              I am a skilled problem solver, experienced in Data Structures and Algorithms and Competitive Programming
               <br />
-              <br />I have working knowledge like
+              <br />I have working knowledge of
               <i>
-                <b className="purple"> C, C++ and Python. </b>
+                <b className="purple"> C, C++, Java and Python. </b>
               </i>
               <br />
               <br />
               My technical interests include &nbsp;
               <i>
-                <b className="purple"> Machine Learning  </b> and
-                Blockchain{" "}
+                <b className="purple"> Machine Learning, Automation  </b> and Web & App Development
+                {" "}
               </i>
               <br />
               <br />

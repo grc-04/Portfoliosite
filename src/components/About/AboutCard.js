@@ -10,20 +10,20 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple"> Garv Chandalia </span>
             from <span className="purple"> New Delhi, India.</span>
-            <br />I am a self-driven Computer Engineer, currently a student at Thapar Institute of Engineering Technology. My areas of interest include competitive programming, blockchain technology, and machine learning, among others.
+            <br />I am a self-driven Computer Engineer, currently a student at Thapar Institute of Engineering Technology. My areas of interest include competitive programming, automation, and machine learning, and Web Development
             <br />
             <br />
             My non-technical skills include
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Content and Creative Writing
+              <ImPointRight /> Financial Analysis 
             </li>
             <li className="about-activity">
-              <ImPointRight /> Marketing and Public Relations
+              <ImPointRight /> Product Development
             </li>
             <li className="about-activity">
-              <ImPointRight /> Finance and related concepts
+              <ImPointRight /> Content Marketing and Creative Writing
             </li>
           </ul>
 
