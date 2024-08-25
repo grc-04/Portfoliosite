@@ -10,6 +10,7 @@ import bot from "../../Assets/Projects/quizbot.png";
 import farmoney from "../../Assets/Projects/Farmoney.png";
 import evac from "../../Assets/Projects/evac.png";
 import chatbot from "../../Assets/Projects/chatbot.png";
+import hosmas from "../../Assets/Projects/hosmas.png";
 
 function Projects() {
   return (
